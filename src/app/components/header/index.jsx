@@ -61,7 +61,7 @@ const Header = () => {
             <Bars3Icon aria-hidden="true" className="size-6" />
           </button>
         </div>
-        <PopoverGroup className="hidden lg:flex lg:flex-2 justify-end gap-5">
+        <PopoverGroup className="hidden lg:flex lg:flex-1 justify-end gap-18">
           <Popover className="relative">
             <PopoverButton className="flex items-center gap-x-1 gap-2 text-sm/6 font-semibold text-gray-900">
               Product
@@ -105,7 +105,9 @@ const Header = () => {
               </div>
             </PopoverPanel>
           </Popover>
-
+          <a href="#" className="text-sm/6 font-semibold text-gray-900">
+            Home
+          </a>
           <a href="#" className="text-sm/6 font-semibold text-gray-900">
             Features
           </a>
@@ -113,7 +115,7 @@ const Header = () => {
             About
           </a>
           <a href="#" className="text-sm/6 font-semibold text-gray-900">
-            Company
+            Contact
           </a>
         </PopoverGroup>
       </nav>
