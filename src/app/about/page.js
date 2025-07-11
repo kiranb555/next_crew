@@ -21,7 +21,7 @@ export default function About() {
       };
   return (
     <>
-    <section className="max-w-3xl mx-auto py-16 px-4">
+    <section className="max-w-7xl mx-auto py-16 px-4">
       <h1 className="text-4xl font-extrabold text-indigo-700 mb-6 text-center drop-shadow">
         About <span className="text-gray-800">Next Crew</span>
       </h1>

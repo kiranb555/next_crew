@@ -39,7 +39,7 @@ const Header = ({ handleScroll }) => {
   const handleContactClick = (e) => {
     e.preventDefault();
     if (window.location.pathname !== "/") {
-      window.location.href = "/#contact-section";
+      window.location.href = "/next_crew/#contact-section";
     } else {
       scrollToSection("contact-section");
     }
@@ -140,13 +140,12 @@ const Header = ({ handleScroll }) => {
           >
             About
           </Link>
-          <a
-            href="/#contact-section"
-            className="text-sm/6 font-semibold text-gray-900 cursor-pointer"
+          <button
             onClick={handleContactClick}
+            className="text-sm/6 font-semibold text-gray-900 cursor-pointer"
           >
             Contact
-          </a>
+          </button>
         </PopoverGroup>
       </nav>
       <Dialog
@@ -159,11 +158,11 @@ const Header = ({ handleScroll }) => {
           <div className="flex items-center justify-between">
             <Link href="/" className="-m-1.5 p-1.5" onClick={handleHomeClick}>
               <span className="sr-only">Next Crew</span>
-              <img
+              {/* <img
                 alt=""
                 src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
                 className="h-8 w-auto"
-              />
+              /> */}
             </Link>
             <button
               type="button"
@@ -201,7 +200,6 @@ const Header = ({ handleScroll }) => {
                 <Link
                   href="/"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
-                  onClick={handleHomeClick}
                 >
                   Home
                 </Link>
@@ -211,13 +209,12 @@ const Header = ({ handleScroll }) => {
                 >
                   About
                 </Link>
-                <a
-                  href="/#contact-section"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+                <button
                   onClick={handleContactClick}
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   Contact
-                </a>
+                </button>
               </div>
             </div>
           </div>

@@ -143,8 +143,8 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex justify-between items-center border-t border-gray-100 pt-8">
-          <p className="text-sm text-gray-500">&copy; 2025. Next Crew. All rights reserved.</p>
+        <div className="flex justify-between flex-wrap gap-2.5 items-center border-t border-gray-100 pt-8">
+          <div className="text-sm text-gray-500">&copy; 2025. Next Crew. All rights reserved.</div>
           <div className="text-sm text-gray-500">
             Design & Developed by &nbsp;
             <a href="https://www.linkedin.com/in/kiranb2040/" target="_blank" rel="noreferrer" className="hover:underline cursor-pointer text-blue-700 text-bold">

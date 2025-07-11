@@ -1,0 +1,9 @@
+{
+  "[project]/node_modules/@heroicons/react/24/outline/esm/index.js [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/node_modules/@heroicons/react/24/outline/esm/index.js [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/node_modules_@heroicons_react_24_outline_esm_d73da3be._.js",
+      "static/chunks/node_modules_@heroicons_react_24_outline_esm_index_51830bef.js"
+    ]
+  }
+}
